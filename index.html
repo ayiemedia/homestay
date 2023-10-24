@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>Homestay Ayie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dapatbelajar.com/db.png"/>
+<head>
+    <style>
+        html {
+            background: url('https://i.ibb.co/cNdkv7M/as.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        body {
+            background: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .center-link {
+            text-align: center;
+        }
+        .center-link a {
+            text-decoration: none;
+            background-color: orange; /* Background color for readability */
+            padding: 20px 30px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .center-link a:hover {
+            background-color: #853500;
+        }
+        audio {
+            width:1px;
+            height:1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-link">
+        <a href="book.html">Booking Now !</a>
+    </div>
+    <iframe style="display: none;" src="https://tourismjohor.my/wp-content/uploads/2021/11/SoundHills.com-Beautiful-Minds-Happy-Corporate-Royalty-Free-Background-Music.mp3"></iframe>
+<audio id="myaudio" autoplay="autoplay" loop="loop" controls="controls"><source src="https://tourismjohor.my/wp-content/uploads/2021/11/SoundHills.com-Beautiful-Minds-Happy-Corporate-Royalty-Free-Background-Music.mp3" type="audio/mp3" /></audio>
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.1;
+</script>
+</body>
+</html>
